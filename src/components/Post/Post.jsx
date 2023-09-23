@@ -3,7 +3,6 @@ import { Link, useNavigate } from 'react-router-dom';
 
 const Post = ({post}) => {
     const navigate = useNavigate();
-        console.log(navigate);
     const {title,id} = post;
 
     const handleShowDetails = () => {
